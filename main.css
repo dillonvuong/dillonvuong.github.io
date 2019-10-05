@@ -18,6 +18,11 @@ ul{
   padding: 0;
 }
 
+.box h1{
+  animation-name: colorChange;
+  animation-duration: 4s;
+}
+
 .box li{
   display: inline-block;
   margin: 6px;
@@ -33,4 +38,42 @@ ul{
 
 .box li a:hover{
   color: red;
+}
+
+.rhombus{
+  transform: skew(-20deg);
+  position: relative;
+  animation-name: moveRight;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+.rhombus-1{
+  background: blue;
+  width: 150px;
+  height: 50px;
+}
+.rhombus-2{
+  background: green;
+  width: 150px;
+  height: 50px;
+}
+.rhombus-3{
+  background: red;
+  width: 150px;
+  height: 50px;
+}
+.rhombus-4{
+  background: yellow;
+  width: 150px;
+  height: 50px;
+}
+
+@keyframes moveRight{
+  0% { left: -5%;}
+  25% { left: 25%;}
+  50% { left: 50%;}
+  75% { left: 75%;}
+  100% { left: 100%; }
+
 }
