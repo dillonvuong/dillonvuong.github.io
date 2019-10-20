@@ -16,17 +16,40 @@
     <link rel="canonical" href="https://dillonvuong.com"/>
   </head>
   <!-- <div class="rhombus rhombus-3"></div> -->
-  <div class="box">
-      <h1 class>dillon vuong</h1>
-      <p>I am a full-stack development intern for Givsum, an up and coming startup company. Currently studying computer science abroad in South Korea.</p>
-      <ul>
-        <li><a href="resume.pdf" target="_blank"><i class="fas fa-file-alt"></i></a></li>
-        <li><a href="mailto:dillonv@uci.edu"><i class="fas fa-envelope-square"></i></a></li>
-        <li><a href="https://www.facebook.com/dillon.vuong.92" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
-        <li><a href="https://github.com/dillonvuong" target="_blank"><i class="fab fa-github-square"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/dillon-vuong-b156bb162/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-      </ul>
-  </div>
-  <!-- <div class="rhombus rhombus-1"></div>
-  <div class="rhombus rhombus-2"></div> -->
+  <body onload= "myFunction()" style= "margin: 0;">
+    <div id="loader">
+      <div class="obj"></div>
+
+    </div>
+    <div style="display:none;" id="myDiv" >
+        <div class="box">
+            <h1 class>dillon vuong</h1>
+            <p>I am a full-stack development intern for Givsum, an up and coming startup company. Currently studying computer science abroad in South Korea.</p>
+            <ul>
+              <li><a href="resume.pdf" target="_blank"><i class="fas fa-file-alt"></i></a></li>
+              <li><a href="mailto:dillonv@uci.edu"><i class="fas fa-envelope-square"></i></a></li>
+              <li><a href="https://www.facebook.com/dillon.vuong.92" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+              <li><a href="https://github.com/dillonvuong" target="_blank"><i class="fab fa-github-square"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/dillon-vuong-b156bb162/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+        <div class="rhombus rhombus-1"></div>
+        <div class="rhombus rhombus-2"></div>
+        <div class="rhombus rhombus-3"></div>
+        <div class="rhombus rhombus-4"></div>
+        <div class="rhombus rhombus-5"></div>
+    </div>
+  <script>
+    var myVar;
+    function myFunction() {
+      myVar = setTimeout(showPage, 3000);
+    }
+
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+  </script>
+
+  </body>
 </html>
