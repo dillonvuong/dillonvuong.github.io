@@ -1,5 +1,5 @@
 body{
-  background: rgb(0, 0, 0);
+  background: #000000;
   animation-name: colorChange;
   animation-duration: 7s;
 }
@@ -52,7 +52,7 @@ ul{
 }
 
 .box li a:hover{
-  color: rgb(255, 238, 5);
+  color: rgb(124, 124, 124);
 }
 
 .rhombus{
@@ -101,19 +101,19 @@ ul{
   /* animation-duration: 2.7s; */
 }
 .rhombus-4{
-  background: linear-gradient(to right, #6f00ff, #ff0095);
+  background: linear-gradient(to right, #6e6e6e, #ffffff);
   /* background: linear-gradient(to right, #6f00ff, #ef00ff); */
 
   /* background-image: linear-gradient(to right,#ff3700,#ffb700); */
   
-  width: 900px;
-  height: 200px;
+  width: 200%;
+  /* height: auto; */
   /* width: 55%;
   height: 22.5%; */
-  left: -100px;
+  /* left: -100px; */
   /* bottom: 410px; */
   /* top: 0px; */
-  top: 380px;
+  /* top: 380px; */
   z-index: -1;
   /* opacity: .65; */
   /* animation-name: moveRightR4; */
